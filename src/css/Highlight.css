@@ -1,0 +1,47 @@
+.highlight-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #fbfbfb;
+    font-family: sans-serif;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+}
+
+.highlight-line {
+    width: 1px;
+    height: 80vh;
+    background-color: gray;
+}
+
+.highlight-image img{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.highlight-heading h1{
+    position: absolute;
+    font-size: 35px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255 68 0);   
+}
+
+.highlight-text-heading h1{
+    position: absolute;
+    font-size: 35px;
+    top: 35%;
+    left: 40%;   
+}
+
+.highlight-text-heading-text p{
+    position: absolute;
+    font-size: 35px;
+    top: 50%;
+    left: 40%;
+    color: gray;
+}

@@ -1,0 +1,22 @@
+.top-client-container {
+    margin-top: 10rem ;
+ }
+
+.top-client-container h1{
+   text-align: center;
+   color: rgb(255 68 0);
+   margin: 1rem 0px;
+}
+
+
+.client-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.feature-buttons-right{
+    text-align: center;
+}
+

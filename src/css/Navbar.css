@@ -1,0 +1,45 @@
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 100%;
+    padding: 0px 100px;
+}
+
+.main-navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.main-navbar-horizontal-line div{
+  width: 2px;
+  height: 30px;
+  background-color: gray;
+  margin-right: 30px;
+}
+
+.main-navbar-select{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.main-navbar-right div p{
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.main-navbar-right div button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    font-size: 16px;
+}
+

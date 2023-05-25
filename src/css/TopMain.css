@@ -1,0 +1,199 @@
+.topmain-container{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  background-color: #fbfbfb;
+  font-family: sans-serif;
+}
+
+.line{
+    width: 1px;
+    height: 170vh;
+    background-color: gray;
+}
+
+.line img{
+    position: absolute;
+    width: 600px;
+    height: 640px;
+    border-radius: 10px;
+}
+
+.line h1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 700;
+    top: 80px;
+}
+
+.line p:nth-child(2){
+    position: absolute;
+    font-size: 60px;
+    font-weight: 700;
+    top: 165px;
+    right: 400px;
+}
+
+.line p:nth-child(3){
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+    top: 250px;
+    right: 645px;
+}
+
+
+.line span:nth-child(4){
+    position: absolute;
+    font-size: 60px;
+    font-weight: bolder;
+    top: 300px;
+    right: 600px;
+    color: rgb(255, 68, 0);
+}
+
+.line span:nth-child(5){
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+    top: 330px;
+    right: 510px;
+}
+
+.topmain-container-input{
+    position: absolute;
+    width: 650px;
+    height: 70px;
+    top: 480px;
+    right: 100px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+
+.topmain-container-input input{
+    height: 100%;
+    width: 65%;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
+.topmain-container-input label{
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.topmain-container-input select{
+    border: none;
+    margin-right: 20px;
+}
+
+.topmain-container-input button{
+    border: none;
+    outline: none;
+    background-color: rgb(255, 68, 0);
+    padding: 10px 30px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+.sun img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 350px;
+    right: 110px;
+}
+
+.details-container h2{
+    font-size: 40px;
+    font-weight: bolder;  
+    position: absolute;
+    text-align: center;
+    top: 800px;
+    left: 200px; 
+}
+
+.first-details-container h2{
+    position: absolute;
+    top: 900px;
+    font-size: 40px;
+    left: 190px;
+}
+
+.first-details-container h3{
+    position: absolute;
+    top: 970px;
+    left: 170px;
+    color: gray;
+}
+
+.second-details-container h2{
+    position: absolute;
+    top: 700px;
+    font-size: 40px;
+    left: 450px;
+}
+
+.second-details-container h3{
+    position: absolute;
+    top: 770px;
+    left: 400px;
+    color: grey;
+}
+
+.third-details-container h2{
+    position: absolute;
+    top: 900px;
+    font-size: 40px;
+    left: 700px;
+}
+
+.third-details-container h3{
+    position: absolute;
+    top: 970px;
+    left: 680px;
+    color: gray;
+}
+
+.heart img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 835px;
+    right: 290px;
+}
+
+.heart label{
+    position: absolute;
+    top: 840px;
+    right: 150px;
+    font-weight: bold;
+}
+
+.demo1 img{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    right: 350px; 
+}
+
+.demo2 img{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    right: 130px; 
+}
+
+.lorem p{
+    position: absolute;
+    top: 1150px;
+    left: 150px; 
+    color: gray;
+    font-size: 19px;
+}

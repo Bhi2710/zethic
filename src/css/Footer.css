@@ -1,0 +1,28 @@
+.footer-container{
+    background-color: #fbfbfb;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 10rem;
+    padding: 40px 100px;
+}
+
+.top-footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-icons label{
+   font-size: 18px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}

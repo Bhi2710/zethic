@@ -1,0 +1,95 @@
+.amenities-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    margin: 10rem 0px;
+}
+
+.amenities-line {
+    width: 1px;
+    height: 95vh;
+    background-color: gray;
+}
+
+.amenities-line-heading h1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(255, 68, 0);
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.amenities-line-child h1 {
+    position: absolute;
+    font-size: 60px;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.amenities-line-child h1:hover {
+    -webkit-text-fill-color: white;
+    color: #fff;
+}
+
+.amenities-line-street h1 {
+    position: absolute;
+    font-size: 60px;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.amenities-line-street h1:hover {
+    -webkit-text-fill-color: white;
+    color: #fff;
+}
+
+.amenities-line-security h1 {
+    position: absolute;
+    font-size: 60px;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.amenities-line-security h1:hover {
+    -webkit-text-fill-color: white;
+    color: #fff;
+}
+
+.amenities-line-Avenue h1 {
+    position: absolute;
+    font-size: 60px;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.amenities-line-Avenue h1:hover{
+    -webkit-text-fill-color: white;
+    color: #fff;
+    visibility: visible;
+}
+
+.amenities-line-images img {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}

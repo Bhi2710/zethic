@@ -1,0 +1,45 @@
+.call-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    margin: 10rem 0px;
+}
+
+.call-line {
+    width: 1px;
+    border-radius: 50%;
+    height: 50vh;
+    background-color: blue;
+}
+
+.call-line-text p{
+    position: absolute;
+    font-size: 40px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.call-line-text-second p{
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.call-line-button button{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(255, 68, 0);
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
